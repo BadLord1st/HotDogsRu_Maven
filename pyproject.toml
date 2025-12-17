@@ -1,0 +1,21 @@
+[project]
+name = "hotdogsru-maven"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+	"ipykernel",
+	"keras2onnx>=1.7.0",
+	"matplotlib",
+	"onnxmltools",
+	"onnxruntime>=1.23.2",
+	"onnxruntime-tools>=1.7.0",
+	"tensorflow",
+	"tf2onnx>=1.8.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]

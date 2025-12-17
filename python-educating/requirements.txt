@@ -1,0 +1,8 @@
+tensorflow-macos==2.13.0
+tensorflow-metal==0.8.0
+onnxmltools==1.14.0
+tf2onnx
+onnx
+numpy
+Pillow
+matplotlib
